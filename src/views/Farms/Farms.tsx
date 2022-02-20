@@ -344,10 +344,10 @@ const Farms: React.FC = () => {
     <>
       <Header>
         <Heading as="h1" size="xxl" color="secondary" mb="24px">
-          {TranslateString(999, 'Farms')}
+          {TranslateString(999, 'Launchpad Projects')}
         </Heading>
         <Heading size="lg" color="text">
-          {TranslateString(999, 'Stake Liquidity Pool (LP) tokens to earn.')}
+          {TranslateString(999, 'View upcoming projects and our past launches')}
         </Heading>
       </Header>
       <Page>

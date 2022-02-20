@@ -2,12 +2,12 @@ import { MenuEntry } from 'uikit'
 
 const config: MenuEntry[] = [
   {
-    label: 'Trade',
+    label: 'Staking',
     icon: 'TradeIcon',
     initialOpenState: true,
     items: [
       {
-        label: 'Exchange',
+        label: 'Exchange Mesrise',
         href: 'https://impossible-swap-v1.netlify.app/#/swap',
       },
       {
@@ -17,12 +17,12 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Farms',
+    label: 'Projects',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Pools',
+    label: 'Apply for IDO',
     icon: 'PoolIcon',
     href: '/pools',
   },
